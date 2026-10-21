@@ -1,0 +1,18 @@
+# runtime / regenerated
+example/*/chaido/results/
+example/*/Work/
+example/*/aiesimulator_output/
+example/*/x86simulator_output/
+example/*/Map_Report.csv
+example/*/libadf.a
+example/*/.Xil/
+example/*/.AIE_SIM_CMD_LINE_OPTIONS
+example/*/*.log
+example/*/sol.db
+example/*/throughput_info.json
+example/*/AIESim_FIFO_Guidance.json
+example/*/pl_sample_count*
+example/*/ISS_RPC_SERVER_PORT
+__pycache__/
+*.pyc
+

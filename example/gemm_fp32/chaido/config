@@ -1,0 +1,15 @@
+# Paths resolve relative to THIS file's directory (example/gemm_fp32/chaido/).
+
+name        = gemm_fp32
+kernel_dir  = ..                                   
+inject_tile = 25,1
+output_file = aiesimulator_output/output.txt
+input_dir   = data
+golden      = ../aiesimulator_output/output.txt
+profile     = ../aiesimulator_output/profile_instr_25_1.txt
+
+categories  = vector,accumulator,scalar,dm
+n           = 20
+seed        = 1
+maxmult     = 8                                     # Timeout threshold = maxmult × fault-free cycles
+results     = results/results.tsv
